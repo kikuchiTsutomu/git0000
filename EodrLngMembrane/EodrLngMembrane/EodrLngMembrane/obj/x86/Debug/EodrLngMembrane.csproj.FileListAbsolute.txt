@@ -90,3 +90,5 @@ C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMem
 C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneCoordinateTransformationForm.ja-JP.resources
 C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankShapeForm.resources
 C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankShapeForm.ja-JP.resources
+C:\Users\Ctech\Documents\git0000\EodrLngMembrane\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.exe
+C:\Users\Ctech\Documents\git0000\EodrLngMembrane\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.pdb
