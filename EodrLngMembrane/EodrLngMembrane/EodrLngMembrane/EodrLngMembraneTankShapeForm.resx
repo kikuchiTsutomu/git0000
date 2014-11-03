@@ -1,0 +1,4116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;labelPlanedBredthFore3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelFunction10.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="label48.TabIndex" type="System.Int32, mscorlib">
+    <value>261</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelMeasuredWLFore7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 303</value>
+  </data>
+  <data name="labelFunction2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelMeasuredForeBHD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelPlanedForeBHD.TabIndex" type="System.Int32, mscorlib">
+    <value>279</value>
+  </data>
+  <data name="labelMeasuredWLAft4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 177</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="labelPlanedBredthAft7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthFore1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 71</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label46.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelMeasuredWLAft3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 55</value>
+  </data>
+  <data name="labelFunction4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthFore3.TabIndex" type="System.Int32, mscorlib">
+    <value>291</value>
+  </data>
+  <data name="labelMeasuredBredthFore2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label39.TabIndex" type="System.Int32, mscorlib">
+    <value>266</value>
+  </data>
+  <data name="&gt;&gt;label43.Name" xml:space="preserve">
+    <value>label43</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="labelMeasuredWLFore2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 380</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft3.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="labelMeasuredBredthFore7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelPlanedWLAft1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelMeasuredBredthAft7.TabIndex" type="System.Int32, mscorlib">
+    <value>336</value>
+  </data>
+  <data name="label31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label49.TabIndex" type="System.Int32, mscorlib">
+    <value>259</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="label35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBoxTankNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 17</value>
+  </data>
+  <data name="&gt;&gt;labelReportNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label40.Name" xml:space="preserve">
+    <value>label40</value>
+  </data>
+  <data name="labelPlanedWLAft3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelPlanedBredthAft6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft4.Name" xml:space="preserve">
+    <value>labelPlanedBredthAft4</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLAft4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedWLAft6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 223</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>Fore BHD</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label41.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlanedBredthAft4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft3.Name" xml:space="preserve">
+    <value>labelPlanedWLAft3</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>274</value>
+  </data>
+  <data name="labelFunction2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="labelMeasuredWLFore3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label35.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelMeasuredWLFore1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthAft3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelPlanedWLAft7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelPlanedWLFore2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 357</value>
+  </data>
+  <data name="labelPlanedBredthAft1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 71</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedAftBHD.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="labelMeasuredBredthFore3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelPlanedBredthAft5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label37.Name" xml:space="preserve">
+    <value>label37</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelFunction5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 417</value>
+  </data>
+  <data name="labelMeasuredWLAft4.TabIndex" type="System.Int32, mscorlib">
+    <value>322</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft3.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore7.Name" xml:space="preserve">
+    <value>labelMeasuredBredthFore7</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTankNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLFore7.TabIndex" type="System.Int32, mscorlib">
+    <value>305</value>
+  </data>
+  <data name="labelFunction10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 417</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="labelPlanedBredthFore2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelPlanedBredthAft7.TabIndex" type="System.Int32, mscorlib">
+    <value>306</value>
+  </data>
+  <data name="label48.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMeasuredWLAft1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>(Uint:m)</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve">
+    <value>buttonClose</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelFunction5.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 181</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label49.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelPlanedBredthAft6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelPlanedWLAft4.TabIndex" type="System.Int32, mscorlib">
+    <value>292</value>
+  </data>
+  <data name="labelMeasuredWLAft6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 261</value>
+  </data>
+  <data name="&gt;&gt;label47.Name" xml:space="preserve">
+    <value>label47</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="labelMeasuredWLAft3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLFore4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelFunction9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore1.Name" xml:space="preserve">
+    <value>labelPlanedWLFore1</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Aft. BHD</value>
+  </data>
+  <data name="labelMeasuredWLAft5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 219</value>
+  </data>
+  <data name="labelPlanedWLFore5.TabIndex" type="System.Int32, mscorlib">
+    <value>297</value>
+  </data>
+  <data name="labelMeasuredBredthAft7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthFore4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFunction3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelPlanedWLAft3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label46.Name" xml:space="preserve">
+    <value>label46</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="label52.TabIndex" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="labelMeasuredWLFore3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 135</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 55</value>
+  </data>
+  <data name="labelPlanedWLAft2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 97</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelPlanedBredthAft2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelPlanedBredthFore5.TabIndex" type="System.Int32, mscorlib">
+    <value>299</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 12</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>256</value>
+  </data>
+  <data name="labelMeasuredBredthFore4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 197</value>
+  </data>
+  <data name="label33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFunction5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="label52.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label49.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 97</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelFunction7.Name" xml:space="preserve">
+    <value>labelFunction7</value>
+  </data>
+  <data name="labelMeasuredWLFore3.TabIndex" type="System.Int32, mscorlib">
+    <value>319</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore4.Name" xml:space="preserve">
+    <value>labelMeasuredBredthFore4</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="labelFunction2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 417</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFunction3.Name" xml:space="preserve">
+    <value>labelFunction3</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="labelPlanedWLAft3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;label37.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>268</value>
+  </data>
+  <data name="labelMeasuredWLAft5.TabIndex" type="System.Int32, mscorlib">
+    <value>326</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelFunction2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="&gt;&gt;labelFunction10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredForeBHD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="labelMeasuredBredthFore4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label44.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="labelFunction8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft1.Name" xml:space="preserve">
+    <value>labelPlanedWLAft1</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelMeasuredBredthFore6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="labelPlanedBredthAft4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="labelPlanedBredthFore6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 281</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelMeasuredBredthAft6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 281</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 75</value>
+  </data>
+  <data name="labelMeasuredWLFore1.TabIndex" type="System.Int32, mscorlib">
+    <value>311</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFunction4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>From Aft.BHD</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft5.Name" xml:space="preserve">
+    <value>labelPlanedBredthAft5</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLFore5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 219</value>
+  </data>
+  <data name="labelMeasuredWLAft4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelPlanedBredthAft7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 323</value>
+  </data>
+  <data name="&gt;&gt;label45.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelFunction1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label53.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthAft6.TabIndex" type="System.Int32, mscorlib">
+    <value>332</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;label35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="labelMeasuredAftBHD.TabIndex" type="System.Int32, mscorlib">
+    <value>308</value>
+  </data>
+  <data name="labelPlanedWLAft1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelFunction5.Text" xml:space="preserve">
+    <value>&lt;F5&gt;Calc</value>
+  </data>
+  <data name="&gt;&gt;labelReportNo.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="label52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;label51.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore3.Name" xml:space="preserve">
+    <value>labelMeasuredBredthFore3</value>
+  </data>
+  <data name="&gt;&gt;labelFunction1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label52.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="labelMeasuredWLFore5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthAft3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 155</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>249</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>264</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft7.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>254</value>
+  </data>
+  <data name="label30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLAft3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 135</value>
+  </data>
+  <data name="labelFunction4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredForeBHD.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="labelPlanedWLFore2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 93</value>
+  </data>
+  <data name="labelPlanedBredthAft7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="comboBoxTankNo.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelMeasuredWLFore7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxTankNo.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBoxTankNo.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label43.TabIndex" type="System.Int32, mscorlib">
+    <value>249</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredBredthAft7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 323</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft1.Name" xml:space="preserve">
+    <value>labelMeasuredWLAft1</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedAftBHD.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelPlanedWLAft7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 303</value>
+  </data>
+  <data name="label41.TabIndex" type="System.Int32, mscorlib">
+    <value>248</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore5.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelPlanedBredthAft5.TabIndex" type="System.Int32, mscorlib">
+    <value>298</value>
+  </data>
+  <data name="&gt;&gt;label44.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelPlanedBredthFore3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore6.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelMeasuredForeBHD.TabIndex" type="System.Int32, mscorlib">
+    <value>309</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelMeasuredBredthAft1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelPlanedBredthAft2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>(5)</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="labelMeasuredWLFore4.TabIndex" type="System.Int32, mscorlib">
+    <value>323</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label38.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label37.TabIndex" type="System.Int32, mscorlib">
+    <value>274</value>
+  </data>
+  <data name="labelMeasuredWLFore6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label45.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="label38.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 139</value>
+  </data>
+  <data name="labelFunction6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>269</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="labelPlanedBredthFore7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>255</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label41.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore2.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="label42.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredWLFore7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelFunction9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="labelMeasuredWLAft6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label49.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlanedWLFore2.TabIndex" type="System.Int32, mscorlib">
+    <value>285</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label48.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>252</value>
+  </data>
+  <data name="label31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelMeasuredBredthFore6.TabIndex" type="System.Int32, mscorlib">
+    <value>333</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft4.Name" xml:space="preserve">
+    <value>labelPlanedWLAft4</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLFore2.TabIndex" type="System.Int32, mscorlib">
+    <value>315</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 307</value>
+  </data>
+  <data name="label34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelFunction10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 117</value>
+  </data>
+  <data name="&gt;&gt;label50.Name" xml:space="preserve">
+    <value>label50</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 265</value>
+  </data>
+  <data name="labelMeasuredBredthAft1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="labelPlanedWLFore4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="label42.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMeasuredBredthFore1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label40.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelMeasuredBredthFore2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 265</value>
+  </data>
+  <data name="labelReportNo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelMeasuredWLFore2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label47.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="labelMeasuredBredthAft5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore4.Name" xml:space="preserve">
+    <value>labelMeasuredWLFore4</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="label35.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="labelMeasuredBredthAft1.TabIndex" type="System.Int32, mscorlib">
+    <value>312</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore4.Name" xml:space="preserve">
+    <value>labelPlanedWLFore4</value>
+  </data>
+  <data name="label53.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredBredthAft2.TabIndex" type="System.Int32, mscorlib">
+    <value>316</value>
+  </data>
+  <data name="labelFunction7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelFunction9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label52.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="labelMeasuredWLAft4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 55</value>
+  </data>
+  <data name="&gt;&gt;label38.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 223</value>
+  </data>
+  <data name="labelMeasuredWLAft5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelFunction8.Name" xml:space="preserve">
+    <value>labelFunction8</value>
+  </data>
+  <data name="labelFunction10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredAftBHD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlanedBredthAft5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 239</value>
+  </data>
+  <data name="label32.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredWLAft3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>(5)</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore1.Name" xml:space="preserve">
+    <value>labelMeasuredWLFore1</value>
+  </data>
+  <data name="&gt;&gt;labelFunction6.Name" xml:space="preserve">
+    <value>labelFunction6</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="label45.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedForeBHD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label50.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;labelFunction2.Name" xml:space="preserve">
+    <value>labelFunction2</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore2.Name" xml:space="preserve">
+    <value>labelPlanedBredthFore2</value>
+  </data>
+  <data name="label39.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label43.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 201</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;labelFunction8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedBredthFore4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 197</value>
+  </data>
+  <data name="labelMeasuredBredthAft2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelMeasuredBredthAft4.TabIndex" type="System.Int32, mscorlib">
+    <value>324</value>
+  </data>
+  <data name="labelPlanedWLAft6.TabIndex" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="label40.TabIndex" type="System.Int32, mscorlib">
+    <value>247</value>
+  </data>
+  <data name="labelPlanedWLFore1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label47.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthFore2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelFunction5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 265</value>
+  </data>
+  <data name="labelMeasuredWLAft2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 93</value>
+  </data>
+  <data name="labelPlanedWLFore1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelReportNo.Text" xml:space="preserve">
+    <value>14-HE-99999A</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labelPlanedBredthAft4.TabIndex" type="System.Int32, mscorlib">
+    <value>294</value>
+  </data>
+  <data name="label42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="labelMeasuredWLAft2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 97</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 307</value>
+  </data>
+  <data name="labelPlanedBredthFore4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelFunction5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelFunction9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>592, 417</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 139</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="labelMeasuredBredthFore6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 281</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="labelPlanedWLAft5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFunction10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredBredthFore2.TabIndex" type="System.Int32, mscorlib">
+    <value>317</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>(1)</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="labelFunction3.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="labelMeasuredWLFore3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedForeBHD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label53.Name" xml:space="preserve">
+    <value>label53</value>
+  </data>
+  <data name="&gt;&gt;labelFunction4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="labelFunction3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelMeasuredBredthAft5.TabIndex" type="System.Int32, mscorlib">
+    <value>328</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label51.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>(7)</value>
+  </data>
+  <data name="labelPlanedBredthFore1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 71</value>
+  </data>
+  <data name="labelPlanedWLFore7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredBredthAft5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelFunction4.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="&gt;&gt;label48.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft6.Name" xml:space="preserve">
+    <value>labelPlanedWLAft6</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Fore BHD</value>
+  </data>
+  <data name="labelPlanedBredthFore5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label36.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="labelPlanedWLAft6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft3.Name" xml:space="preserve">
+    <value>labelPlanedBredthAft3</value>
+  </data>
+  <data name="label32.TabIndex" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="labelMeasuredBredthAft6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelMeasuredWLAft1.TabIndex" type="System.Int32, mscorlib">
+    <value>310</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredBredthFore5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="labelFunction1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelMeasuredBredthAft1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="labelMeasuredWLAft1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLFore7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelPlanedBredthFore7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft6.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelFunction8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="labelMeasuredBredthAft3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelFunction1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 417</value>
+  </data>
+  <data name="&gt;&gt;label42.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelFunction7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 417</value>
+  </data>
+  <data name="&gt;&gt;label39.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Report No.</value>
+  </data>
+  <data name="labelMeasuredWLFore3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthFore2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedBredthAft4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelFunction2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 243</value>
+  </data>
+  <data name="label50.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>265</value>
+  </data>
+  <data name="label34.TabIndex" type="System.Int32, mscorlib">
+    <value>275</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft5.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelFunction1.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="label42.TabIndex" type="System.Int32, mscorlib">
+    <value>265</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelPlanedWLFore3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label43.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelFunction8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label39.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore5.Name" xml:space="preserve">
+    <value>labelMeasuredBredthFore5</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="labelPlanedAftBHD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthFore6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 40</value>
+  </data>
+  <data name="labelMeasuredAftBHD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="labelPlanedBredthFore4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>251</value>
+  </data>
+  <data name="labelPlanedWLFore3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelMeasuredBredthAft5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredWLFore6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelMeasuredBredthAft4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 197</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="labelMeasuredBredthAft7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label39.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelMeasuredWLFore4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label45.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft1.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>270</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>(6)</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 97</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 75</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelMeasuredWLAft6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore3.Name" xml:space="preserve">
+    <value>labelPlanedWLFore3</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft6.Name" xml:space="preserve">
+    <value>labelMeasuredWLAft6</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 117</value>
+  </data>
+  <data name="labelMeasuredWLAft5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label48.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore7.Name" xml:space="preserve">
+    <value>labelPlanedWLFore7</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 307</value>
+  </data>
+  <data name="labelFunction10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="label48.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="label30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredAftBHD.Name" xml:space="preserve">
+    <value>labelMeasuredAftBHD</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthAft4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 197</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label49.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 307</value>
+  </data>
+  <data name="labelMeasuredBredthAft2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 113</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft4.Name" xml:space="preserve">
+    <value>labelMeasuredWLAft4</value>
+  </data>
+  <data name="labelFunction4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 417</value>
+  </data>
+  <data name="labelPlanedBredthFore6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Measured Shape</value>
+  </data>
+  <data name="labelMeasuredWLFore6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 261</value>
+  </data>
+  <data name="labelPlanedWLAft3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 135</value>
+  </data>
+  <data name="labelPlanedWLFore6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelPlanedWLAft4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 177</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore5.Name" xml:space="preserve">
+    <value>labelPlanedBredthFore5</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore1.Name" xml:space="preserve">
+    <value>labelPlanedBredthFore1</value>
+  </data>
+  <data name="labelFunction9.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="&gt;&gt;label47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredBredthFore4.TabIndex" type="System.Int32, mscorlib">
+    <value>325</value>
+  </data>
+  <data name="&gt;&gt;labelFunction5.Name" xml:space="preserve">
+    <value>labelFunction5</value>
+  </data>
+  <data name="labelPlanedBredthAft2.TabIndex" type="System.Int32, mscorlib">
+    <value>286</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="labelPlanedWLFore7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelFunction1.Name" xml:space="preserve">
+    <value>labelFunction1</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="labelPlanedBredthFore2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 113</value>
+  </data>
+  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>258</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 285</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>266</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>From Aft.BHD</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore2.Name" xml:space="preserve">
+    <value>labelMeasuredWLFore2</value>
+  </data>
+  <data name="comboBoxTankNo.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelPlanedWLAft6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="labelMeasuredBredthAft3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>247</value>
+  </data>
+  <data name="labelMeasuredBredthFore1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelFunction8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 20</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelFunction1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelFunction10.Text" xml:space="preserve">
+    <value>&lt;F10&gt;Print</value>
+  </data>
+  <data name="labelPlanedWLFore5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedBredthAft6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>(4)</value>
+  </data>
+  <data name="label51.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="labelPlanedWLAft5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelMeasuredWLAft1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 51</value>
+  </data>
+  <data name="labelPlanedWLAft2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label50.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 180</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft3.Name" xml:space="preserve">
+    <value>labelMeasuredWLAft3</value>
+  </data>
+  <data name="label53.TabIndex" type="System.Int32, mscorlib">
+    <value>277</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>(2)</value>
+  </data>
+  <data name="label36.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedWLFore6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthFore4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelMeasuredBredthAft3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelFunction7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelPlanedWLFore6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 261</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 223</value>
+  </data>
+  <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelFunction9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label43.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMeasuredWLFore5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 159</value>
+  </data>
+  <data name="labelMeasuredBredthAft4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore3.Name" xml:space="preserve">
+    <value>labelMeasuredWLFore3</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLFore5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTankNo.Name" xml:space="preserve">
+    <value>comboBoxTankNo</value>
+  </data>
+  <data name="labelPlanedBredthFore5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedBredthFore4.TabIndex" type="System.Int32, mscorlib">
+    <value>295</value>
+  </data>
+  <data name="&gt;&gt;labelFunction6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelFunction9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="labelPlanedWLAft2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelFunction3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="&gt;&gt;labelFunction7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelMeasuredWLAft2.TabIndex" type="System.Int32, mscorlib">
+    <value>314</value>
+  </data>
+  <data name="&gt;&gt;label35.Name" xml:space="preserve">
+    <value>label35</value>
+  </data>
+  <data name="labelPlanedWLFore1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelMeasuredBredthFore3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="labelPlanedWLFore3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 135</value>
+  </data>
+  <data name="&gt;&gt;labelFunction5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelPlanedWLAft1.TabIndex" type="System.Int32, mscorlib">
+    <value>280</value>
+  </data>
+  <data name="labelPlanedBredthFore6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelPlanedWLFore3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>271</value>
+  </data>
+  <data name="labelFunction5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthFore5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelMeasuredBredthFore5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelFunction3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedBredthFore1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelFunction8.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>(2)</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedAftBHD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredBredthFore5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedWLAft2.TabIndex" type="System.Int32, mscorlib">
+    <value>284</value>
+  </data>
+  <data name="&gt;&gt;label40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="label53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="labelMeasuredWLAft7.TabIndex" type="System.Int32, mscorlib">
+    <value>334</value>
+  </data>
+  <data name="label37.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft2.Name" xml:space="preserve">
+    <value>labelPlanedBredthAft2</value>
+  </data>
+  <data name="label51.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlanedBredthFore7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label46.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="labelMeasuredWLFore2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 93</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelFunction1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLAft2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 93</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLFore2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedBredthFore7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 323</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedBredthAft1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>254</value>
+  </data>
+  <data name="&gt;&gt;label36.Name" xml:space="preserve">
+    <value>label36</value>
+  </data>
+  <data name="labelPlanedWLFore1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 51</value>
+  </data>
+  <data name="label28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore2.Name" xml:space="preserve">
+    <value>labelMeasuredBredthFore2</value>
+  </data>
+  <data name="labelMeasuredBredthFore7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 323</value>
+  </data>
+  <data name="label29.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLAft3.TabIndex" type="System.Int32, mscorlib">
+    <value>288</value>
+  </data>
+  <data name="labelMeasuredWLFore4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 177</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="label46.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlanedWLAft5.TabIndex" type="System.Int32, mscorlib">
+    <value>296</value>
+  </data>
+  <data name="labelPlanedBredthFore3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTankNo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelPlanedWLFore6.TabIndex" type="System.Int32, mscorlib">
+    <value>301</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelPlanedBredthAft7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelMeasuredForeBHD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore2.Name" xml:space="preserve">
+    <value>labelPlanedWLFore2</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredWLFore1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelMeasuredWLAft3.TabIndex" type="System.Int32, mscorlib">
+    <value>318</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore6.Name" xml:space="preserve">
+    <value>labelPlanedWLFore6</value>
+  </data>
+  <data name="labelPlanedBredthAft2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 113</value>
+  </data>
+  <data name="labelMeasuredAftBHD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLAft7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelFunction8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 417</value>
+  </data>
+  <data name="labelPlanedWLFore4.TabIndex" type="System.Int32, mscorlib">
+    <value>293</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelPlanedWLAft6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 261</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore7.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelFunction7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="labelPlanedBredthAft4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>614, 49</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="labelPlanedBredthAft3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="labelMeasuredWLAft6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthAft4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedWLFore5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelMeasuredBredthAft4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelPlanedWLFore6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelMeasuredBredthFore1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedBredthFore5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelPlanedBredthAft3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLAft7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 303</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore4.Name" xml:space="preserve">
+    <value>labelPlanedBredthFore4</value>
+  </data>
+  <data name="&gt;&gt;label51.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredAftBHD.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="labelPlanedAftBHD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 28</value>
+  </data>
+  <data name="labelPlanedBredthFore6.TabIndex" type="System.Int32, mscorlib">
+    <value>303</value>
+  </data>
+  <data name="labelMeasuredBredthAft2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label52.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label51.Name" xml:space="preserve">
+    <value>label51</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>248</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label33.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlanedBredthAft2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelFunction7.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="labelMeasuredForeBHD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 28</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedAftBHD.TabIndex" type="System.Int32, mscorlib">
+    <value>278</value>
+  </data>
+  <data name="labelMeasuredWLFore4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelFunction4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>(3)</value>
+  </data>
+  <data name="label44.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft2.Name" xml:space="preserve">
+    <value>labelMeasuredBredthAft2</value>
+  </data>
+  <data name="&gt;&gt;label41.Name" xml:space="preserve">
+    <value>label41</value>
+  </data>
+  <data name="labelPlanedBredthAft5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore7.Name" xml:space="preserve">
+    <value>labelPlanedBredthFore7</value>
+  </data>
+  <data name="labelMeasuredBredthFore4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelPlanedBredthFore7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;comboBoxTankNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelReportNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <data name="labelFunction6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredAftBHD.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFunction5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="&gt;&gt;label42.Name" xml:space="preserve">
+    <value>label42</value>
+  </data>
+  <data name="labelMeasuredWLAft2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelFunction8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelFunction6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLAft5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label36.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="labelMeasuredBredthAft2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedBredthAft7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredForeBHD.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelMeasuredWLAft6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthAft1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label38.Name" xml:space="preserve">
+    <value>label38</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLAft1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 51</value>
+  </data>
+  <data name="&gt;&gt;labelFunction9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredWLFore5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 219</value>
+  </data>
+  <data name="label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore2.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;label48.Name" xml:space="preserve">
+    <value>label48</value>
+  </data>
+  <data name="labelPlanedWLFore4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore7.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlanedBredthAft6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 281</value>
+  </data>
+  <data name="labelPlanedWLFore2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelMeasuredBredthAft1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelFunction4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredBredthFore4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft7.Name" xml:space="preserve">
+    <value>labelPlanedBredthAft7</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft7.Name" xml:space="preserve">
+    <value>labelPlanedWLAft7</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label52.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="comboBoxTankNo.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelPlanedBredthAft6.TabIndex" type="System.Int32, mscorlib">
+    <value>302</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label51.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedBredthAft5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>273</value>
+  </data>
+  <data name="labelPlanedWLFore2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelMeasuredWLFore1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelFunction3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 417</value>
+  </data>
+  <data name="labelPlanedBredthAft5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 12</value>
+  </data>
+  <data name="labelMeasuredWLAft4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedBredthAft3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelFunction6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelMeasuredWLFore5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;label52.Name" xml:space="preserve">
+    <value>label52</value>
+  </data>
+  <data name="label33.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelFunction7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="labelPlanedWLFore7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedWLAft1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="labelFunction6.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="labelPlanedForeBHD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelFunction1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredBredthAft4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthFore1.TabIndex" type="System.Int32, mscorlib">
+    <value>313</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedBredthFore5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 239</value>
+  </data>
+  <data name="&gt;&gt;label35.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label53.Text" xml:space="preserve">
+    <value>Tank No.</value>
+  </data>
+  <data name="labelPlanedWLFore3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 243</value>
+  </data>
+  <data name="&gt;&gt;label49.Name" xml:space="preserve">
+    <value>label49</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="labelPlanedWLFore7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 303</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label53.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>(3)</value>
+  </data>
+  <data name="&gt;&gt;labelFunction10.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft2.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore5.Name" xml:space="preserve">
+    <value>labelMeasuredWLFore5</value>
+  </data>
+  <data name="labelMeasuredWLAft6.TabIndex" type="System.Int32, mscorlib">
+    <value>330</value>
+  </data>
+  <data name="label39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxTankNo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Aft. BHD</value>
+  </data>
+  <data name="labelFunction4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelReportNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft6.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelPlanedBredthFore7.TabIndex" type="System.Int32, mscorlib">
+    <value>307</value>
+  </data>
+  <data name="label46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft7.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelMeasuredWLFore7.TabIndex" type="System.Int32, mscorlib">
+    <value>335</value>
+  </data>
+  <data name="labelPlanedWLAft1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Planed Shape</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 159</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>744, 442</value>
+  </data>
+  <data name="labelMeasuredAftBHD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label48.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthAft1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 71</value>
+  </data>
+  <data name="labelReportNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label47.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 139</value>
+  </data>
+  <data name="labelPlanedBredthFore4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelFunction9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedWLFore5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft2.Name" xml:space="preserve">
+    <value>labelPlanedWLAft2</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore7.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelPlanedWLFore6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLAft1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelFunction2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label33.TabIndex" type="System.Int32, mscorlib">
+    <value>268</value>
+  </data>
+  <data name="&gt;&gt;label35.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;labelFunction9.Name" xml:space="preserve">
+    <value>labelFunction9</value>
+  </data>
+  <data name="buttonClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 181</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore3.Name" xml:space="preserve">
+    <value>labelPlanedBredthFore3</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredWLFore2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredBredthFore6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label40.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Press ESC to close.</value>
+  </data>
+  <data name="labelMeasuredBredthFore7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 285</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>(4)</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="labelPlanedBredthFore2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelReportNo.Name" xml:space="preserve">
+    <value>labelReportNo</value>
+  </data>
+  <data name="labelMeasuredWLFore1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 51</value>
+  </data>
+  <data name="labelMeasuredBredthFore5.TabIndex" type="System.Int32, mscorlib">
+    <value>329</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>270</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="label52.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft6.Name" xml:space="preserve">
+    <value>labelMeasuredBredthAft6</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="labelPlanedWLAft4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthFore6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label47.TabIndex" type="System.Int32, mscorlib">
+    <value>252</value>
+  </data>
+  <data name="labelMeasuredAftBHD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label47.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedAftBHD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label38.TabIndex" type="System.Int32, mscorlib">
+    <value>246</value>
+  </data>
+  <data name="labelMeasuredWLAft5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthFore3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelMeasuredBredthAft5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft5.Name" xml:space="preserve">
+    <value>labelMeasuredBredthAft5</value>
+  </data>
+  <data name="labelPlanedWLFore4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelPlanedWLAft5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label47.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="&gt;&gt;labelFunction3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft1.Name" xml:space="preserve">
+    <value>labelMeasuredBredthAft1</value>
+  </data>
+  <data name="labelPlanedWLFore1.TabIndex" type="System.Int32, mscorlib">
+    <value>281</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>261</value>
+  </data>
+  <data name="labelReportNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="labelFunction8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthFore2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 113</value>
+  </data>
+  <data name="&gt;&gt;label36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLAft7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="labelPlanedForeBHD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore5.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labelPlanedBredthFore1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMeasuredBredthFore3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 155</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft4.Name" xml:space="preserve">
+    <value>labelMeasuredBredthAft4</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredWLFore5.TabIndex" type="System.Int32, mscorlib">
+    <value>327</value>
+  </data>
+  <data name="label50.TabIndex" type="System.Int32, mscorlib">
+    <value>255</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label49.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthFore6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthFore7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredWLAft7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label38.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxTankNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="&gt;&gt;label39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLFore7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label37.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 357</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLFore3.TabIndex" type="System.Int32, mscorlib">
+    <value>289</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>259</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>267</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore1.Name" xml:space="preserve">
+    <value>labelMeasuredBredthFore1</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="labelPlanedBredthFore3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelPlanedBredthAft1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore6.Name" xml:space="preserve">
+    <value>labelMeasuredBredthFore6</value>
+  </data>
+  <data name="labelMeasuredBredthAft6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredBredthFore5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label36.TabIndex" type="System.Int32, mscorlib">
+    <value>267</value>
+  </data>
+  <data name="labelMeasuredBredthFore5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 239</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 30</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelMeasuredBredthAft6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelFunction6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 417</value>
+  </data>
+  <data name="labelReportNo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredBredthAft3.TabIndex" type="System.Int32, mscorlib">
+    <value>320</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft1.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="labelPlanedAftBHD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 327</value>
+  </data>
+  <data name="label44.TabIndex" type="System.Int32, mscorlib">
+    <value>264</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft5.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLAft7.TabIndex" type="System.Int32, mscorlib">
+    <value>304</value>
+  </data>
+  <data name="labelFunction7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 265</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 327</value>
+  </data>
+  <data name="labelMeasuredBredthFore1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labelMeasuredWLAft7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="labelPlanedWLFore5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedBredthAft1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFunction10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label46.TabIndex" type="System.Int32, mscorlib">
+    <value>262</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft6.Name" xml:space="preserve">
+    <value>labelPlanedBredthAft6</value>
+  </data>
+  <data name="labelMeasuredWLAft2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelMeasuredBredthAft7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedBredthAft3.TabIndex" type="System.Int32, mscorlib">
+    <value>290</value>
+  </data>
+  <data name="labelReportNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredWLAft1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label50.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlanedBredthFore3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 155</value>
+  </data>
+  <data name="&gt;&gt;label53.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft1.Name" xml:space="preserve">
+    <value>labelPlanedBredthAft1</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label49.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 13</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore5.Name" xml:space="preserve">
+    <value>labelPlanedWLFore5</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="labelPlanedAftBHD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedWLAft6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelFunction10.Name" xml:space="preserve">
+    <value>labelFunction10</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label40.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="labelMeasuredWLAft4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredWLAft7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredBredthFore7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label37.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredBredthAft7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label44.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthFore6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="labelPlanedWLFore4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelPlanedWLAft7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthFore2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>271</value>
+  </data>
+  <data name="label41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 30</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label50.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore3.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 40</value>
+  </data>
+  <data name="labelMeasuredBredthAft3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelMeasuredWLFore6.TabIndex" type="System.Int32, mscorlib">
+    <value>331</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;label40.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 223</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 55</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelMeasuredWLFore2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedForeBHD.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="buttonClose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredWLFore6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore6.Name" xml:space="preserve">
+    <value>labelPlanedBredthFore6</value>
+  </data>
+  <data name="labelMeasuredBredthFore3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelMeasuredAftBHD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label46.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>(1)</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft7.Name" xml:space="preserve">
+    <value>labelMeasuredBredthAft7</value>
+  </data>
+  <data name="label49.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 180</value>
+  </data>
+  <data name="label35.TabIndex" type="System.Int32, mscorlib">
+    <value>273</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelMeasuredWLAft2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="labelFunction6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="labelPlanedBredthAft2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft5.Name" xml:space="preserve">
+    <value>labelPlanedWLAft5</value>
+  </data>
+  <data name="labelMeasuredForeBHD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFunction3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthAft6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLFore4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;label42.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>(6)</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EodrLngMembraneTankShapeForm</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label45.Name" xml:space="preserve">
+    <value>label45</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="labelPlanedBredthAft3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 155</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>262</value>
+  </data>
+  <data name="labelPlanedWLFore1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="labelPlanedWLAft2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedForeBHD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 28</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore7.Name" xml:space="preserve">
+    <value>labelMeasuredWLFore7</value>
+  </data>
+  <data name="labelPlanedBredthFore2.TabIndex" type="System.Int32, mscorlib">
+    <value>287</value>
+  </data>
+  <data name="label51.TabIndex" type="System.Int32, mscorlib">
+    <value>258</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelPlanedBredthFore1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label50.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 400</value>
+  </data>
+  <data name="label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="labelMeasuredBredthAft6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft2.Name" xml:space="preserve">
+    <value>labelMeasuredWLAft2</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlanedWLAft5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 219</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredForeBHD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelFunction7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore6.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft5.Name" xml:space="preserve">
+    <value>labelMeasuredWLAft5</value>
+  </data>
+  <data name="labelPlanedWLAft3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore6.Name" xml:space="preserve">
+    <value>labelMeasuredWLFore6</value>
+  </data>
+  <data name="&gt;&gt;label43.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>269</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft3.Name" xml:space="preserve">
+    <value>labelMeasuredBredthAft3</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelFunction1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelPlanedWLAft4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelMeasuredBredthFore7.TabIndex" type="System.Int32, mscorlib">
+    <value>337</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft7.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="labelMeasuredBredthAft2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelFunction2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLFore7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFunction3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="labelMeasuredBredthFore2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthFore1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label39.Name" xml:space="preserve">
+    <value>label39</value>
+  </data>
+  <data name="label41.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label53.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelPlanedBredthFore3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlanedBredthFore1.TabIndex" type="System.Int32, mscorlib">
+    <value>283</value>
+  </data>
+  <data name="labelPlanedWLAft5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="&gt;&gt;labelFunction2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredForeBHD.Name" xml:space="preserve">
+    <value>labelMeasuredForeBHD</value>
+  </data>
+  <data name="labelMeasuredWLFore7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthAft5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>272</value>
+  </data>
+  <data name="labelMeasuredWLFore3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>EODR LNG MembraneType Tank measuremento System Tank Shape Data</value>
+  </data>
+  <data name="labelMeasuredWLFore1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 201</value>
+  </data>
+  <data name="labelMeasuredBredthAft5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 239</value>
+  </data>
+  <data name="&gt;&gt;labelFunction4.Name" xml:space="preserve">
+    <value>labelFunction4</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 139</value>
+  </data>
+  <data name="&gt;&gt;label50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>(7)</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label44.Name" xml:space="preserve">
+    <value>label44</value>
+  </data>
+  <data name="&gt;&gt;label41.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMeasuredBredthFore3.TabIndex" type="System.Int32, mscorlib">
+    <value>321</value>
+  </data>
+  <data name="labelPlanedBredthAft1.TabIndex" type="System.Int32, mscorlib">
+    <value>282</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="&gt;&gt;label36.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedWLAft2.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFunction6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLFore7.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedForeBHD.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlanedWLAft7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft7.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="labelMeasuredWLFore6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedAftBHD.Name" xml:space="preserve">
+    <value>labelPlanedAftBHD</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredWLAft7.Name" xml:space="preserve">
+    <value>labelMeasuredWLAft7</value>
+  </data>
+  <data name="labelPlanedWLFore4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 177</value>
+  </data>
+  <data name="&gt;&gt;label51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthFore6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label45.TabIndex" type="System.Int32, mscorlib">
+    <value>251</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="label47.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedForeBHD.Name" xml:space="preserve">
+    <value>labelPlanedForeBHD</value>
+  </data>
+  <data name="labelFunction2.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="labelFunction5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonClose.Text" xml:space="preserve">
+    <value>close</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="labelPlanedForeBHD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="labelPlanedWLAft4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMeasuredWLAft3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;labelMeasuredBredthAft6.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;labelPlanedBredthFore5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

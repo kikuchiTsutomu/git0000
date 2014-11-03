@@ -1,0 +1,92 @@
+C:\Temp\EodrLngMembrane\EodrLngMembrane\bin\Debug\EodrLngMembrane.exe
+C:\Temp\EodrLngMembrane\EodrLngMembrane\bin\Debug\EodrLngMembrane.pdb
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneCaltureForm.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.Properties.Resources.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.csproj.GenerateResource.Cache
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.exe
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.pdb
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMenuForm.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMessageResource.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMessageResource.ja-JP.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\bin\Debug\ja-JP\EodrLngMembrane.resources.dll
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\ja-JP\EodrLngMembrane.resources.dll
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.csprojResolveAssemblyReference.cache
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.NumTextBox.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMenuForm.ja-JP.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneVesselForm.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneVesselForm.ja-JP.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankForm.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankPlaneForm.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankForm.ja-JP.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankPlaneForm.ja-JP.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneEodrPositionForm.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneEodrPositionForm.ja-JP.resources
+C:\Temp\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBasePointMeasurementForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.exe
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.pdb
+C:\EODR\EodrLngMembrane\EodrLngMembrane\bin\Debug\EodrLngMembrane.exe
+C:\EODR\EodrLngMembrane\EodrLngMembrane\bin\Debug\EodrLngMembrane.pdb
+C:\EODR\EodrLngMembrane\EodrLngMembrane\bin\Debug\ja-JP\EodrLngMembrane.resources.dll
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.csprojResolveAssemblyReference.cache
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBasePointMeasurementForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneCaltureForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneEodrPositionForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMenuForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMessageResource.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankPlaneForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneVesselForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.NumTextBox.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.Properties.Resources.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneEodrPositionForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMenuForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMessageResource.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankPlaneForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneVesselForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.csproj.GenerateResource.Cache
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\ja-JP\EodrLngMembrane.resources.dll
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrMeasurementForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrMeasurementForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBasePointMeasurementForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBHDMeasurementForm.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.exe
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.pdb
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\bin\Debug\EodrLngMembrane.exe
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\bin\Debug\EodrLngMembrane.pdb
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\bin\Debug\ja-JP\EodrLngMembrane.resources.dll
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.csprojResolveAssemblyReference.cache
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBasePointMeasurementForm.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBHDMeasurementForm.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneCaltureForm.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneEodrPositionForm.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMenuForm.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMessageResource.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankForm.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankPlaneForm.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneVesselForm.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrMeasurementForm.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.NumTextBox.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.Properties.Resources.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBasePointMeasurementForm.ja-JP.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneEodrPositionForm.ja-JP.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMenuForm.ja-JP.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneMessageResource.ja-JP.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankForm.ja-JP.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankPlaneForm.ja-JP.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneVesselForm.ja-JP.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrMeasurementForm.ja-JP.resources
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.csproj.GenerateResource.Cache
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\ja-JP\EodrLngMembrane.resources.dll
+C:\EODR\EodrLngMembrane - コピー\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBHDMeasurementForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBHDMeasurementForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneCrossSectionMeasurementForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneCrossSectionMeasurementForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBottomMeasurementForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneBottomMeasurementForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneObservationDataEditingForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneObservationDataEditingForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneCoordinateTransformationForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneCoordinateTransformationForm.ja-JP.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankShapeForm.resources
+C:\EODR\EodrLngMembrane\EodrLngMembrane\obj\x86\Debug\EodrLngMembrane.EodrLngMembraneTankShapeForm.ja-JP.resources

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetCoordinateTransform" targetNamespace="http://tempuri.org/DataSetCoordinateTransform.xsd" xmlns:mstns="http://tempuri.org/DataSetCoordinateTransform.xsd" xmlns="http://tempuri.org/DataSetCoordinateTransform.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetCoordinateTransform" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetCoordinateTransform" msprop:Generator_UserDSName="DataSetCoordinateTransform">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTableCoordinateTransform" msdata:Locale="" msprop:Generator_TableClassName="DataTableCoordinateTransformDataTable" msprop:Generator_TableVarName="tableDataTableCoordinateTransform" msprop:Generator_TablePropName="DataTableCoordinateTransform" msprop:Generator_RowDeletingName="DataTableCoordinateTransformRowDeleting" msprop:Generator_RowChangingName="DataTableCoordinateTransformRowChanging" msprop:Generator_RowEvHandlerName="DataTableCoordinateTransformRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableCoordinateTransformRowDeleted" msprop:Generator_UserTableName="DataTableCoordinateTransform" msprop:Generator_RowChangedName="DataTableCoordinateTransformRowChanged" msprop:Generator_RowEvArgName="DataTableCoordinateTransformRowChangeEvent" msprop:Generator_RowClassName="DataTableCoordinateTransformRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BasePoint" msprop:Generator_ColumnVarNameInTable="columnBasePoint" msprop:Generator_ColumnPropNameInRow="BasePoint" msprop:Generator_ColumnPropNameInTable="BasePointColumn" msprop:Generator_UserColumnName="BasePoint" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="XTransform" msprop:Generator_ColumnVarNameInTable="columnXTransform" msprop:Generator_ColumnPropNameInRow="XTransform" msprop:Generator_ColumnPropNameInTable="XTransformColumn" msprop:Generator_UserColumnName="XTransform" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YTransform" msprop:Generator_ColumnVarNameInTable="columnYTransform" msprop:Generator_ColumnPropNameInRow="YTransform" msprop:Generator_ColumnPropNameInTable="YTransformColumn" msprop:Generator_UserColumnName="YTransform" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZTransform" msprop:Generator_ColumnVarNameInTable="columnZTransform" msprop:Generator_ColumnPropNameInRow="ZTransform" msprop:Generator_ColumnPropNameInTable="ZTransformColumn" msprop:Generator_UserColumnName="ZTransform" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

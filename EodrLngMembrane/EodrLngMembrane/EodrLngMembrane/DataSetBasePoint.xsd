@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetBasePoint" targetNamespace="http://tempuri.org/DataSetBasePoint.xsd" xmlns:mstns="http://tempuri.org/DataSetBasePoint.xsd" xmlns="http://tempuri.org/DataSetBasePoint.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetBasePoint" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetBasePoint" msprop:Generator_UserDSName="DataSetBasePoint">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTablebasePoint" msprop:Generator_TableClassName="DataTablebasePointDataTable" msprop:Generator_TableVarName="tableDataTablebasePoint" msprop:Generator_RowChangedName="DataTablebasePointRowChanged" msprop:Generator_TablePropName="DataTablebasePoint" msprop:Generator_RowDeletingName="DataTablebasePointRowDeleting" msprop:Generator_RowChangingName="DataTablebasePointRowChanging" msprop:Generator_RowEvHandlerName="DataTablebasePointRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTablebasePointRowDeleted" msprop:Generator_RowClassName="DataTablebasePointRow" msprop:Generator_UserTableName="DataTablebasePoint" msprop:Generator_RowEvArgName="DataTablebasePointRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BasePoint" msprop:Generator_ColumnVarNameInTable="columnBasePoint" msprop:Generator_ColumnPropNameInRow="BasePoint" msprop:Generator_ColumnPropNameInTable="BasePointColumn" msprop:Generator_UserColumnName="BasePoint" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HorAngle" msprop:Generator_ColumnVarNameInTable="columnHorAngle" msprop:Generator_ColumnPropNameInRow="HorAngle" msprop:Generator_ColumnPropNameInTable="HorAngleColumn" msprop:Generator_UserColumnName="HorAngle" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VarAngle" msprop:Generator_ColumnVarNameInTable="columnVarAngle" msprop:Generator_ColumnPropNameInRow="VarAngle" msprop:Generator_ColumnPropNameInTable="VarAngleColumn" msprop:Generator_UserColumnName="VarAngle" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SlopeDistance" msprop:Generator_ColumnVarNameInTable="columnSlopeDistance" msprop:Generator_ColumnPropNameInRow="SlopeDistance" msprop:Generator_ColumnPropNameInTable="SlopeDistanceColumn" msprop:Generator_UserColumnName="SlopeDistance" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="XCoordinate" msprop:Generator_ColumnVarNameInTable="columnXCoordinate" msprop:Generator_ColumnPropNameInRow="XCoordinate" msprop:Generator_ColumnPropNameInTable="XCoordinateColumn" msprop:Generator_UserColumnName="XCoordinate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="YCoordinate" msprop:Generator_ColumnVarNameInTable="columnYCoordinate" msprop:Generator_ColumnPropNameInRow="YCoordinate" msprop:Generator_ColumnPropNameInTable="YCoordinateColumn" msprop:Generator_UserColumnName="YCoordinate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ZCoordinate" msprop:Generator_ColumnVarNameInTable="columnZCoordinate" msprop:Generator_ColumnPropNameInRow="ZCoordinate" msprop:Generator_ColumnPropNameInTable="ZCoordinateColumn" msprop:Generator_UserColumnName="ZCoordinate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

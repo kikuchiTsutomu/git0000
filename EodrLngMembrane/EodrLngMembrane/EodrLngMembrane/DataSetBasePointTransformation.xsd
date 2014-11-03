@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetBasePointTransformation" targetNamespace="http://tempuri.org/DataSetBasePointTransformation.xsd" xmlns:mstns="http://tempuri.org/DataSetBasePointTransformation.xsd" xmlns="http://tempuri.org/DataSetBasePointTransformation.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetBasePointTransformation" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetBasePointTransformation" msprop:Generator_UserDSName="DataSetBasePointTransformation">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTableBasePointTransformation" msdata:Locale="" msprop:Generator_TableClassName="DataTableBasePointTransformationDataTable" msprop:Generator_TableVarName="tableDataTableBasePointTransformation" msprop:Generator_TablePropName="DataTableBasePointTransformation" msprop:Generator_RowDeletingName="DataTableBasePointTransformationRowDeleting" msprop:Generator_RowChangingName="DataTableBasePointTransformationRowChanging" msprop:Generator_RowEvHandlerName="DataTableBasePointTransformationRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableBasePointTransformationRowDeleted" msprop:Generator_UserTableName="DataTableBasePointTransformation" msprop:Generator_RowChangedName="DataTableBasePointTransformationRowChanged" msprop:Generator_RowEvArgName="DataTableBasePointTransformationRowChangeEvent" msprop:Generator_RowClassName="DataTableBasePointTransformationRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BasePoint" msprop:Generator_ColumnVarNameInTable="columnBasePoint" msprop:Generator_ColumnPropNameInRow="BasePoint" msprop:Generator_ColumnPropNameInTable="BasePointColumn" msprop:Generator_UserColumnName="BasePoint" type="xs:string" minOccurs="0" />
+              <xs:element name="XTransformation" msprop:Generator_ColumnVarNameInTable="columnXTransformation" msprop:Generator_ColumnPropNameInRow="XTransformation" msprop:Generator_ColumnPropNameInTable="XTransformationColumn" msprop:Generator_UserColumnName="XTransformation" type="xs:string" minOccurs="0" />
+              <xs:element name="YTransformation" msprop:Generator_ColumnVarNameInTable="columnYTransformation" msprop:Generator_ColumnPropNameInRow="YTransformation" msprop:Generator_ColumnPropNameInTable="YTransformationColumn" msprop:Generator_UserColumnName="YTransformation" type="xs:string" minOccurs="0" />
+              <xs:element name="ZTransformation" msprop:Generator_ColumnVarNameInTable="columnZTransformation" msprop:Generator_ColumnPropNameInRow="ZTransformation" msprop:Generator_ColumnPropNameInTable="ZTransformationColumn" msprop:Generator_UserColumnName="ZTransformation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

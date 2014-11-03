@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetMeasurementData" targetNamespace="http://tempuri.org/DataSetMeasurementData.xsd" xmlns:mstns="http://tempuri.org/DataSetMeasurementData.xsd" xmlns="http://tempuri.org/DataSetMeasurementData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetMeasurementData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetMeasurementData" msprop:Generator_UserDSName="DataSetMeasurementData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTableMeasurementData" msdata:Locale="" msprop:Generator_TableClassName="DataTableMeasurementDataDataTable" msprop:Generator_TableVarName="tableDataTableMeasurementData" msprop:Generator_TablePropName="DataTableMeasurementData" msprop:Generator_RowDeletingName="DataTableMeasurementDataRowDeleting" msprop:Generator_RowChangingName="DataTableMeasurementDataRowChanging" msprop:Generator_RowEvHandlerName="DataTableMeasurementDataRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableMeasurementDataRowDeleted" msprop:Generator_UserTableName="DataTableMeasurementData" msprop:Generator_RowChangedName="DataTableMeasurementDataRowChanged" msprop:Generator_RowEvArgName="DataTableMeasurementDataRowChangeEvent" msprop:Generator_RowClassName="DataTableMeasurementDataRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MeasurementNo" msprop:Generator_ColumnVarNameInTable="columnMeasurementNo" msprop:Generator_ColumnPropNameInRow="MeasurementNo" msprop:Generator_ColumnPropNameInTable="MeasurementNoColumn" msprop:Generator_UserColumnName="MeasurementNo" type="xs:string" minOccurs="0" />
+              <xs:element name="PlaneCode" msprop:Generator_ColumnVarNameInTable="columnPlaneCode" msprop:Generator_ColumnPropNameInRow="PlaneCode" msprop:Generator_ColumnPropNameInTable="PlaneCodeColumn" msprop:Generator_UserColumnName="PlaneCode" type="xs:string" minOccurs="0" />
+              <xs:element name="PositionNo" msprop:Generator_ColumnVarNameInTable="columnPositionNo" msprop:Generator_ColumnPropNameInRow="PositionNo" msprop:Generator_ColumnPropNameInTable="PositionNoColumn" msprop:Generator_UserColumnName="PositionNo" type="xs:string" minOccurs="0" />
+              <xs:element name="SectionNo" msprop:Generator_ColumnVarNameInTable="columnSectionNo" msprop:Generator_ColumnPropNameInRow="SectionNo" msprop:Generator_ColumnPropNameInTable="SectionNoColumn" msprop:Generator_UserColumnName="SectionNo" type="xs:string" minOccurs="0" />
+              <xs:element name="PointNo" msprop:Generator_ColumnVarNameInTable="columnPointNo" msprop:Generator_ColumnPropNameInRow="PointNo" msprop:Generator_ColumnPropNameInTable="PointNoColumn" msprop:Generator_UserColumnName="PointNo" type="xs:string" minOccurs="0" />
+              <xs:element name="HorAngle" msprop:Generator_ColumnVarNameInTable="columnHorAngle" msprop:Generator_ColumnPropNameInRow="HorAngle" msprop:Generator_ColumnPropNameInTable="HorAngleColumn" msprop:Generator_UserColumnName="HorAngle" type="xs:string" minOccurs="0" />
+              <xs:element name="VarAngle" msprop:Generator_ColumnVarNameInTable="columnVarAngle" msprop:Generator_ColumnPropNameInRow="VarAngle" msprop:Generator_ColumnPropNameInTable="VarAngleColumn" msprop:Generator_UserColumnName="VarAngle" type="xs:string" minOccurs="0" />
+              <xs:element name="SlopeDistance" msprop:Generator_ColumnVarNameInTable="columnSlopeDistance" msprop:Generator_ColumnPropNameInRow="SlopeDistance" msprop:Generator_ColumnPropNameInTable="SlopeDistanceColumn" msprop:Generator_UserColumnName="SlopeDistance" type="xs:string" minOccurs="0" />
+              <xs:element name="XCoordinate" msprop:Generator_ColumnVarNameInTable="columnXCoordinate" msprop:Generator_ColumnPropNameInRow="XCoordinate" msprop:Generator_ColumnPropNameInTable="XCoordinateColumn" msprop:Generator_UserColumnName="XCoordinate" type="xs:string" minOccurs="0" />
+              <xs:element name="YCoordinate" msprop:Generator_ColumnVarNameInTable="columnYCoordinate" msprop:Generator_ColumnPropNameInRow="YCoordinate" msprop:Generator_ColumnPropNameInTable="YCoordinateColumn" msprop:Generator_UserColumnName="YCoordinate" type="xs:string" minOccurs="0" />
+              <xs:element name="ZCoordinate" msprop:Generator_ColumnVarNameInTable="columnZCoordinate" msprop:Generator_ColumnPropNameInRow="ZCoordinate" msprop:Generator_ColumnPropNameInTable="ZCoordinateColumn" msprop:Generator_UserColumnName="ZCoordinate" type="xs:string" minOccurs="0" />
+              <xs:element name="Deviation" msprop:Generator_ColumnVarNameInTable="columnDeviation" msprop:Generator_ColumnPropNameInRow="Deviation" msprop:Generator_ColumnPropNameInTable="DeviationColumn" msprop:Generator_UserColumnName="Deviation" type="xs:string" minOccurs="0" />
+              <xs:element name="Note" msprop:Generator_ColumnVarNameInTable="columnNote" msprop:Generator_ColumnPropNameInRow="Note" msprop:Generator_ColumnPropNameInTable="NoteColumn" msprop:Generator_UserColumnName="Note" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

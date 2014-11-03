@@ -1,0 +1,3870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;numTextBoxBredthFore7.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelPlaneStbdB4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBoxIntersection6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 328</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numTextBoxWLFore3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="labelPlaneStbdA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 102</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 144</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelPlaneStbdB4.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft5.Name" xml:space="preserve">
+    <value>numTextBoxBredthAft5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="checkBoxIntersection7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="comboBoxPlanePortB5.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="numTextBoxWLFore1.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="numTextBoxWLAft1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 103</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="labelPlaneStbdB3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numTextBoxBredthFore7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 375</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft6.Name" xml:space="preserve">
+    <value>numTextBoxWLAft6</value>
+  </data>
+  <data name="labelPlaneStbdA7.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore4.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 405</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft4.Name" xml:space="preserve">
+    <value>numTextBoxBredthAft4</value>
+  </data>
+  <data name="labelPlaneStbdC3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="labelPlaneStbdB6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 102</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlaneStbdB5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numTextBoxAftBHD.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlaneStbdC4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 144</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Tank No.</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labelPlaneStbdA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 275</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 228</value>
+  </data>
+  <data name="label20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="labelPlaneStbdC5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numTextBoxWLAft1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB1.Name" xml:space="preserve">
+    <value>labelPlaneStbdB1</value>
+  </data>
+  <data name="labelPlaneStbdB2.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="label24.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numTextBoxWLFore7.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="numTextBoxForeBHD.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="comboBoxPlanePortB3.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore2.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="checkBoxIntersection2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB6.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="numTextBoxWLFore2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="labelPlaneStbdC1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numTextBoxBredthFore7.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC6.Name" xml:space="preserve">
+    <value>labelPlaneStbdC6</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore3.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>(Uint:m)</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve">
+    <value>buttonClose</value>
+  </data>
+  <data name="labelPlaneStbdC2.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="labelPlaneStbdC5.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC4.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB7.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxIntersection3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBoxStarbordSide.Text" xml:space="preserve">
+    <value>Starbord Side</value>
+  </data>
+  <data name="numTextBoxWLFore5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 271</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore2.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="labelPlaneStbdC6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB3.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="labelPlaneStbdA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 60</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore6.Name" xml:space="preserve">
+    <value>numTextBoxBredthFore6</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft4.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore5.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelTankNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 19</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Aft. BHD</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA4.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore2.Name" xml:space="preserve">
+    <value>numTextBoxBredthFore2</value>
+  </data>
+  <data name="labelReportNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 149</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 107</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 64</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numTextBoxBredthAft2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="labelPlaneStbdA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft5.Name" xml:space="preserve">
+    <value>numTextBoxWLAft5</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxAftBHD.Name" xml:space="preserve">
+    <value>numTextBoxAftBHD</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 191</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC3.Name" xml:space="preserve">
+    <value>labelPlaneStbdC3</value>
+  </data>
+  <data name="checkBoxIntersection4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="labelPlaneStbdB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 102</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA5.Name" xml:space="preserve">
+    <value>labelPlaneStbdA5</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxAftBHD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numTextBoxBredthAft6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="labelPlaneStbdC7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="numTextBoxWLAft5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="numTextBoxWLFore1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="numTextBoxBredthAft5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numTextBoxBredthFore3.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 186</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="numTextBoxBredthFore3.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelPlaneStbdB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 186</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 228</value>
+  </data>
+  <data name="numTextBoxForeBHD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 80</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EodrLngMembraneTankForm</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxFrameNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="numTextBoxWLAft7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 355</value>
+  </data>
+  <data name="labelPlaneStbdA7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="numTextBoxWLAft4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="numTextBoxForeBHD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="labelPlaneStbdC2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelPlaneStbdA5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numTextBoxBredthAft2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 165</value>
+  </data>
+  <data name="numTextBoxBredthAft3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="numTextBoxWLFore6.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>From Aft.BHD</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;labelReportNo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="numTextBoxWLFore6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelPlaneStbdA1.TabIndex" type="System.Int32, mscorlib">
+    <value>148</value>
+  </data>
+  <data name="numTextBoxBredthAft7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 375</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlaneStbdA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 127</value>
+  </data>
+  <data name="labelPlaneStbdA7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortC6.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection4.Name" xml:space="preserve">
+    <value>checkBoxIntersection4</value>
+  </data>
+  <data name="numTextBoxWLAft6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore6.Name" xml:space="preserve">
+    <value>numTextBoxWLFore6</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore1.Name" xml:space="preserve">
+    <value>numTextBoxWLFore1</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="labelPlaneStbdC5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="labelPlaneStbdA2.TabIndex" type="System.Int32, mscorlib">
+    <value>151</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="numTextBoxBredthFore4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="label30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlaneStbdC6.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxForeBHD.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB3.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft6.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="checkBoxIntersection6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxIntersection6.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numTextBoxWLFore4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 229</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB2.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="numTextBoxBredthFore1.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlaneStbdC1.TabIndex" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore6.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="numTextBoxWLAft5.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC4.Name" xml:space="preserve">
+    <value>labelPlaneStbdC4</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="numTextBoxBredthFore1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 123</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="labelPlaneStbdC1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="numTextBoxFrameNo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxFrameNo.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>(5)</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="labelTankNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 17</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numTextBoxWLAft4.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBoxPlanePortA6.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="numTextBoxFrameNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 42</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB4.Name" xml:space="preserve">
+    <value>labelPlaneStbdB4</value>
+  </data>
+  <data name="labelPlaneStbdC3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="labelPlaneStbdC1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB1.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numTextBoxBredthAft7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="labelPlaneStbdA2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelPlaneStbdC2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlaneStbdB4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 144</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numTextBoxBredthAft1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="label31.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelPlaneStbdA5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC3.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="numTextBoxBredthFore2.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB6.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="numTextBoxBredthFore6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft6.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="checkBoxIntersection4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore1.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 317</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="numTextBoxWLAft4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC7.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="numTextBoxWLAft6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="numTextBoxWLAft2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="checkBoxIntersection2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 160</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB7.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC2.Name" xml:space="preserve">
+    <value>comboBoxPlanePortC2</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore1.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="labelPlaneStbdC7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 211</value>
+  </data>
+  <data name="numTextBoxWLFore5.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="numTextBoxBredthFore3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 207</value>
+  </data>
+  <data name="numTextBoxWLAft7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelPlaneStbdB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlaneStbdA4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlaneStbdA3.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB4.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft1.Name" xml:space="preserve">
+    <value>numTextBoxWLAft1</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB1.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="numTextBoxWLAft6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 313</value>
+  </data>
+  <data name="labelPlaneStbdC4.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="labelPlaneStbdA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelReportNo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="numTextBoxBredthAft7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="labelPlaneStbdA2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC3.Name" xml:space="preserve">
+    <value>comboBoxPlanePortC3</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft7.Name" xml:space="preserve">
+    <value>numTextBoxWLAft7</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="labelPlaneStbdA6.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB5.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="labelPlaneStbdA7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 270</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC5.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 18</value>
+  </data>
+  <data name="numTextBoxFrameNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 253</value>
+  </data>
+  <data name="labelPlaneStbdC5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA4.Name" xml:space="preserve">
+    <value>labelPlaneStbdA4</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="labelReportNo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="comboBoxPlanePortA4.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="numTextBoxBredthAft4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 249</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore4.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore4.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="groupBoxPortSide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>274, 96</value>
+  </data>
+  <data name="numTextBoxBredthAft6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="labelReportNo.Text" xml:space="preserve">
+    <value>14-HE-99999A</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC1.Name" xml:space="preserve">
+    <value>comboBoxPlanePortC1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection2.Name" xml:space="preserve">
+    <value>checkBoxIntersection2</value>
+  </data>
+  <data name="labelPlaneStbdC6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 228</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxForeBHD.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="numTextBoxWLFore2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 145</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore5.Name" xml:space="preserve">
+    <value>numTextBoxWLFore5</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numTextBoxWLAft3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 13</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC6.Name" xml:space="preserve">
+    <value>comboBoxPlanePortC6</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>(1)</value>
+  </data>
+  <data name="label19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="numTextBoxBredthAft6.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="checkBoxIntersection3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxPlanePortA5.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="labelPlaneStbdA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 186</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA6.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="labelPlaneStbdA6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelPlaneStbdB2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Plane to make the intersection</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>(7)</value>
+  </data>
+  <data name="numTextBoxWLAft7.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC7.Name" xml:space="preserve">
+    <value>comboBoxPlanePortC7</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC2.Name" xml:space="preserve">
+    <value>labelPlaneStbdC2</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore2.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="comboBoxPlanePortC2.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numTextBoxWLAft7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Fore BHD</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxAftBHD.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="labelPlaneStbdB7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection7.Name" xml:space="preserve">
+    <value>checkBoxIntersection7</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxForeBHD.Name" xml:space="preserve">
+    <value>numTextBoxForeBHD</value>
+  </data>
+  <data name="labelPlaneStbdA7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore5.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBoxIntersection2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 107</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC1.Name" xml:space="preserve">
+    <value>labelPlaneStbdC1</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB2.Name" xml:space="preserve">
+    <value>labelPlaneStbdB2</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numTextBoxWLFore3.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft4.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxFrameNo.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="numTextBoxWLAft2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="labelPlaneStbdB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="checkBoxIntersection5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numTextBoxFrameNo.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Report No.</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC5.Name" xml:space="preserve">
+    <value>comboBoxPlanePortC5</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA3.Name" xml:space="preserve">
+    <value>labelPlaneStbdA3</value>
+  </data>
+  <data name="numTextBoxBredthFore5.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA3.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 295</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 186</value>
+  </data>
+  <data name="label34.TabIndex" type="System.Int32, mscorlib">
+    <value>113</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="checkBoxIntersection5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 286</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB4.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 186</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA4.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 44</value>
+  </data>
+  <data name="labelPlaneStbdB1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 228</value>
+  </data>
+  <data name="numTextBoxBredthFore7.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numTextBoxBredthFore2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 165</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC4.Name" xml:space="preserve">
+    <value>comboBoxPlanePortC4</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft1.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore3.Name" xml:space="preserve">
+    <value>numTextBoxWLFore3</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortC1.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="groupBoxStarbordSide.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numTextBoxBredthFore5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 291</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortC7.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="labelPlaneStbdA5.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="labelPlaneStbdC4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="numTextBoxBredthFore3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB2.Name" xml:space="preserve">
+    <value>comboBoxPlanePortB2</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore1.Name" xml:space="preserve">
+    <value>numTextBoxBredthFore1</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>(6)</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 149</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC2.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore2.Name" xml:space="preserve">
+    <value>numTextBoxWLFore2</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelPlaneStbdA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="label22.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 359</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label30.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="numTextBoxWLFore7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="numTextBoxBredthAft6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 333</value>
+  </data>
+  <data name="label28.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="numTextBoxBredthFore2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB3.Name" xml:space="preserve">
+    <value>comboBoxPlanePortB3</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label26.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft3.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;groupBoxPortSide.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelPlaneStbdB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlaneStbdB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 18</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="numTextBoxWLAft4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="numTextBoxBredthAft2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft1.Name" xml:space="preserve">
+    <value>numTextBoxBredthAft1</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore2.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft3.Name" xml:space="preserve">
+    <value>numTextBoxBredthAft3</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="checkBoxIntersection2.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 379</value>
+  </data>
+  <data name="numTextBoxWLFore2.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft2.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="numTextBoxBredthAft3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="labelPlaneStbdB2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="numTextBoxBredthFore1.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 337</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="numTextBoxBredthFore3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB1.Name" xml:space="preserve">
+    <value>comboBoxPlanePortB1</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelReportNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA1.Name" xml:space="preserve">
+    <value>labelPlaneStbdA1</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft2.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBoxPortSide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB6.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="groupBoxStarbordSide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 295</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>(4)</value>
+  </data>
+  <data name="numTextBoxBredthFore7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="labelPlaneStbdA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 144</value>
+  </data>
+  <data name="checkBoxIntersection5.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="numTextBoxWLAft6.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore5.Name" xml:space="preserve">
+    <value>numTextBoxBredthFore5</value>
+  </data>
+  <data name="numTextBoxWLAft2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 145</value>
+  </data>
+  <data name="labelPlaneStbdC4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 232</value>
+  </data>
+  <data name="label25.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="numTextBoxBredthAft5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 291</value>
+  </data>
+  <data name="labelPlaneStbdB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 60</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="label23.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 270</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection5.Name" xml:space="preserve">
+    <value>checkBoxIntersection5</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB7.Name" xml:space="preserve">
+    <value>comboBoxPlanePortB7</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numTextBoxBredthFore6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="label27.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="&gt;&gt;groupBoxStarbordSide.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlaneStbdA1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlaneStbdB7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="labelPlaneStbdB7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 270</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC5.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxAftBHD.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numTextBoxWLFore5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="numTextBoxWLFore3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB4.Name" xml:space="preserve">
+    <value>comboBoxPlanePortB4</value>
+  </data>
+  <data name="numTextBoxBredthFore1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="groupBoxPortSide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 295</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelPlaneStbdA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC5.Name" xml:space="preserve">
+    <value>labelPlaneStbdC5</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="labelPlaneStbdA6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 228</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="labelPlaneStbdB6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortB2.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft2.Name" xml:space="preserve">
+    <value>numTextBoxBredthAft2</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore1.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB6.Name" xml:space="preserve">
+    <value>comboBoxPlanePortB6</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB5.Name" xml:space="preserve">
+    <value>comboBoxPlanePortB5</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 60</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft4.Name" xml:space="preserve">
+    <value>numTextBoxWLAft4</value>
+  </data>
+  <data name="numTextBoxAftBHD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 80</value>
+  </data>
+  <data name="numTextBoxBredthFore4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 249</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>(2)</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="&gt;&gt;groupBoxStarbordSide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft2.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlaneStbdB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 102</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore3.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection1.Name" xml:space="preserve">
+    <value>checkBoxIntersection1</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft5.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="numTextBoxWLFore1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="numTextBoxBredthFore4.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC1.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 18</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft3.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 18</value>
+  </data>
+  <data name="label28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft2.Name" xml:space="preserve">
+    <value>numTextBoxWLAft2</value>
+  </data>
+  <data name="comboBoxPlanePortC3.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="labelTankNo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelPlaneStbdB1.TabIndex" type="System.Int32, mscorlib">
+    <value>149</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB4.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="labelPlaneStbdB5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA2.Name" xml:space="preserve">
+    <value>comboBoxPlanePortA2</value>
+  </data>
+  <data name="comboBoxPlanePortB1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="numTextBoxBredthFore5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="numTextBoxWLFore3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 187</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB7.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="numTextBoxWLAft7.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numTextBoxBredthAft1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 397</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 270</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB4.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft5.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA3.Name" xml:space="preserve">
+    <value>comboBoxPlanePortA3</value>
+  </data>
+  <data name="numTextBoxForeBHD.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBoxIntersection6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlaneStbdA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="numTextBoxWLFore6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 313</value>
+  </data>
+  <data name="numTextBoxWLFore6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxPlanePortC1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="numTextBoxBredthAft2.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft6.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC2.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 144</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="numTextBoxWLAft6.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numTextBoxBredthAft5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore4.Name" xml:space="preserve">
+    <value>numTextBoxBredthFore4</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft7.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore7.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft1.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="numTextBoxWLFore5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA1.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC3.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="numTextBoxWLAft1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxForeBHD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Frame No.</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 60</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA1.Name" xml:space="preserve">
+    <value>comboBoxPlanePortA1</value>
+  </data>
+  <data name="&gt;&gt;labelTankNo.Name" xml:space="preserve">
+    <value>labelTankNo</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore4.Name" xml:space="preserve">
+    <value>numTextBoxWLFore4</value>
+  </data>
+  <data name="numTextBoxWLFore7.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="labelReportNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection3.Name" xml:space="preserve">
+    <value>checkBoxIntersection3</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA6.Name" xml:space="preserve">
+    <value>comboBoxPlanePortA6</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="labelPlaneStbdB4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="labelPlaneStbdB5.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="checkBoxIntersection7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 370</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft3.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="numTextBoxWLFore7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft7.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA7.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="numTextBoxWLAft4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 229</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 64</value>
+  </data>
+  <data name="&gt;&gt;groupBoxPortSide.Name" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC1.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="labelPlaneStbdB3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="labelPlaneStbdC6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>(3)</value>
+  </data>
+  <data name="labelReportNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA7.Name" xml:space="preserve">
+    <value>comboBoxPlanePortA7</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="numTextBoxBredthFore6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 333</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore6.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="numTextBoxWLFore5.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="numTextBoxBredthFore5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="numTextBoxWLFore6.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 317</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="labelTankNo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC6.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBoxPortSide.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA4.Name" xml:space="preserve">
+    <value>comboBoxPlanePortA4</value>
+  </data>
+  <data name="numTextBoxBredthFore6.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="numTextBoxWLAft2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 144</value>
+  </data>
+  <data name="numTextBoxBredthFore2.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="numTextBoxWLAft3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC7.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA5.Name" xml:space="preserve">
+    <value>comboBoxPlanePortA5</value>
+  </data>
+  <data name="&gt;&gt;groupBoxStarbordSide.Name" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft2.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="numTextBoxBredthAft3.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBoxIntersection7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBoxStarbordSide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC6.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC4.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="numTextBoxWLAft1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft7.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="numTextBoxWLAft3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="numTextBoxFrameNo.MaxLength" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="numTextBoxBredthFore7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="&gt;&gt;labelTankNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="numTextBoxWLAft2.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlaneStbdC2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA2.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore3.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="checkBoxIntersection1.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="labelPlaneStbdB5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore7.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 20</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft7.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="numTextBoxAftBHD.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numTextBoxBredthFore2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>744, 442</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA3.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortC6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 169</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft3.Name" xml:space="preserve">
+    <value>numTextBoxWLAft3</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft5.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelPlaneStbdB6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 228</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 359</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxFrameNo.Name" xml:space="preserve">
+    <value>numTextBoxFrameNo</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB7.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="labelTankNo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Press ESC to close.</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore7.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelReportNo.Name" xml:space="preserve">
+    <value>labelReportNo</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA2.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="numTextBoxWLAft5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="checkBoxIntersection4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 244</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortA4.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB6.Name" xml:space="preserve">
+    <value>labelPlaneStbdB6</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore7.Name" xml:space="preserve">
+    <value>numTextBoxWLFore7</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="numTextBoxWLAft5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB5.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft6.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numTextBoxBredthFore1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelReportNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA1.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxIntersection5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlaneStbdB7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="checkBoxIntersection7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft1.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;labelTankNo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlaneStbdC7.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numTextBoxWLFore4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA6.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelPlaneStbdC3.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="numTextBoxBredthAft4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="checkBoxIntersection2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelPlaneStbdA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="checkBoxIntersection7.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="numTextBoxWLFore4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA7.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="checkBoxIntersection3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="groupBoxPortSide.Text" xml:space="preserve">
+    <value>Port Side</value>
+  </data>
+  <data name="label18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA5.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="numTextBoxWLFore4.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="numTextBoxWLFore1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 103</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelTankNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="labelPlaneStbdC7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numTextBoxBredthAft5.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelPlaneStbdA3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft3.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="comboBoxPlanePortB7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 270</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore5.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB2.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA7.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB5.Name" xml:space="preserve">
+    <value>labelPlaneStbdB5</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBoxPlanePortA2.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC6.Parent" xml:space="preserve">
+    <value>groupBoxStarbordSide</value>
+  </data>
+  <data name="numTextBoxWLFore4.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="comboBoxPlanePortA5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="numTextBoxAftBHD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="numTextBoxBredthAft6.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC7.Name" xml:space="preserve">
+    <value>labelPlaneStbdC7</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA5.Parent" xml:space="preserve">
+    <value>groupBoxPortSide</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>147</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft5.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="comboBoxPlanePortA6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortC5.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA2.Name" xml:space="preserve">
+    <value>labelPlaneStbdA2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="numTextBoxBredthAft1.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft4.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numTextBoxBredthAft5.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB7.Name" xml:space="preserve">
+    <value>labelPlaneStbdB7</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelPlaneStbdB7.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="numTextBoxBredthFore4.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortA5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 60</value>
+  </data>
+  <data name="labelPlaneStbdC6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPlaneStbdC1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 18</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft7.Name" xml:space="preserve">
+    <value>numTextBoxBredthAft7</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 80</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB3.Name" xml:space="preserve">
+    <value>labelPlaneStbdB3</value>
+  </data>
+  <data name="numTextBoxBredthAft4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 13</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>W.L.</value>
+  </data>
+  <data name="labelTankNo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="checkBoxIntersection4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="numTextBoxWLAft3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 187</value>
+  </data>
+  <data name="comboBoxPlanePortA1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="labelPlaneStbdB3.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft6.Name" xml:space="preserve">
+    <value>numTextBoxBredthAft6</value>
+  </data>
+  <data name="comboBoxPlanePortA7.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="checkBoxIntersection3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 202</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 275</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="comboBoxPlanePortA3.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="labelPlaneStbdC2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 60</value>
+  </data>
+  <data name="labelPlaneStbdA2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="buttonClose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="labelPlaneStbdA3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxIntersection1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numTextBoxWLFore2.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore4.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="comboBoxPlanePortB6.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="numTextBoxBredthAft3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthAft6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLAft4.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="labelPlaneStbdC3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 102</value>
+  </data>
+  <data name="comboBoxPlanePortC3.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="numTextBoxWLAft5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 271</value>
+  </data>
+  <data name="comboBoxPlanePortB3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 102</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore6.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore7.Name" xml:space="preserve">
+    <value>numTextBoxBredthFore7</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="numTextBoxWLFore2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="checkBoxIntersection5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="numTextBoxBredthFore6.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 82</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore3.Name" xml:space="preserve">
+    <value>numTextBoxBredthFore3</value>
+  </data>
+  <data name="numTextBoxBredthFore4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="numTextBoxBredthAft1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 425</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="numTextBoxWLFore1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection6.Name" xml:space="preserve">
+    <value>checkBoxIntersection6</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="numTextBoxBredthAft7.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labelPlaneStbdC7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 270</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="numTextBoxBredthAft2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 19</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore6.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="label25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numTextBoxBredthAft3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 207</value>
+  </data>
+  <data name="comboBoxPlanePortC4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA6.Name" xml:space="preserve">
+    <value>labelPlaneStbdA6</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdA7.Name" xml:space="preserve">
+    <value>labelPlaneStbdA7</value>
+  </data>
+  <data name="comboBoxPlanePortB5.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="comboBoxPlanePortA2.Items3" xml:space="preserve">
+    <value>BTTM</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="checkBoxIntersection4.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortC7.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxWLFore3.Type" xml:space="preserve">
+    <value>EodrLngMembrane.NumTextBox, EodrLngMembrane, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="numTextBoxBredthAft4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelReportNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="checkBoxIntersection1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 118</value>
+  </data>
+  <data name="comboBoxPlanePortB1.Items2" xml:space="preserve">
+    <value>TOP</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 233</value>
+  </data>
+  <data name="numTextBoxWLAft1.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBoxPlanePortC4.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numTextBoxBredthAft7.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="comboBoxPlanePortC7.Items6" xml:space="preserve">
+    <value>SW-P3</value>
+  </data>
+  <data name="&gt;&gt;numTextBoxBredthFore5.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="labelPlaneStbdC4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="numTextBoxWLFore7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 355</value>
+  </data>
+  <data name="numTextBoxForeBHD.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlanePortA3.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="comboBoxPlanePortB2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIntersection2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>EODR LNG MembraneType Tank Measurement System Tank Shape</value>
+  </data>
+  <data name="labelPlaneStbdC3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="numTextBoxBredthFore5.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="comboBoxPlanePortB4.Items1" xml:space="preserve">
+    <value>F-BHD</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 191</value>
+  </data>
+  <data name="labelPlaneStbdC5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 186</value>
+  </data>
+  <data name="numTextBoxWLAft3.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="checkBoxIntersection3.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numTextBoxBredthAft1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 123</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="comboBoxPlanePortA1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9pt</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdC6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlaneStbdA4.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxPlanePortB6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBoxPortSide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numTextBoxBredthAft4.MaxLength" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="comboBoxPlanePortA7.Items4" xml:space="preserve">
+    <value>SW-P1</value>
+  </data>
+  <data name="checkBoxIntersection1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="numTextBoxWLFore3.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="labelPlaneStbdB1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MS UI Gothic, 9.75pt</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Bredth</value>
+  </data>
+  <data name="labelPlaneStbdB6.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="buttonClose.Text" xml:space="preserve">
+    <value>close</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPlaneStbdB6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBoxStarbordSide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 96</value>
+  </data>
+  <data name="labelPlaneStbdA4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="numTextBoxAftBHD.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="comboBoxPlanePortC2.Items" xml:space="preserve">
+    <value>A-BHD</value>
+  </data>
+  <data name="labelPlaneStbdB4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="checkBoxIntersection6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="comboBoxPlanePortC5.Items5" xml:space="preserve">
+    <value>SW-P2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlanePortB2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

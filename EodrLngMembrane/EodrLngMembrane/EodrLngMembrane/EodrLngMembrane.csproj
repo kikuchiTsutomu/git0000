@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0AA6F66D-6ED7-4384-AF15-98956DC7A9FC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EodrLngMembrane</RootNamespace>
+    <AssemblyName>EodrLngMembrane</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSetBasePoint.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBasePoint.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetBasePointTransformation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBasePointTransformation.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetCoordinateTransformation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCoordinateTransformation.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetMeasurementData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetMeasurementData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneBasePointMeasurementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneBasePointMeasurementForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneBasePointMeasurementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneBHDMeasurementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneBHDMeasurementForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneBHDMeasurementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneBottomMeasurementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneBottomMeasurementForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneBottomMeasurementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneCaltureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneCaltureForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneCaltureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneCoordinateTransformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneCoordinateTransformationForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneCoordinateTransformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneEodrPositionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneEodrPositionForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneEodrPositionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneMenuForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneMessageResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EodrLngMembraneMessageResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneCrossSectionMeasurementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneCrossSectionMeasurementForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneCrossSectionMeasurementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneObservationDataEditingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneObservationDataEditingForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneObservationDataEditingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneTankForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneTankForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneTankForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneTankPlaneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneTankPlaneForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneTankPlaneForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneTankShapeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneTankShapeForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneTankShapeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrLngMembraneVesselForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrLngMembraneVesselForm.Designer.cs">
+      <DependentUpon>EodrLngMembraneVesselForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrMeasurementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EodrMeasurementForm.Designer.cs">
+      <DependentUpon>EodrMeasurementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EodrMeasurementParameter.cs" />
+    <Compile Include="NumTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NumTextBox.Designer.cs">
+      <DependentUpon>NumTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EodrLngMembraneBasePointMeasurementForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneBasePointMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneBasePointMeasurementForm.resx">
+      <DependentUpon>EodrLngMembraneBasePointMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneBHDMeasurementForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneBHDMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneBHDMeasurementForm.resx">
+      <DependentUpon>EodrLngMembraneBHDMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneBottomMeasurementForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneBottomMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneBottomMeasurementForm.resx">
+      <DependentUpon>EodrLngMembraneBottomMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneCaltureForm.resx">
+      <DependentUpon>EodrLngMembraneCaltureForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneCoordinateTransformationForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneCoordinateTransformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneCoordinateTransformationForm.resx">
+      <DependentUpon>EodrLngMembraneCoordinateTransformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneCrossSectionMeasurementForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneCrossSectionMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneEodrPositionForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneEodrPositionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneEodrPositionForm.resx">
+      <DependentUpon>EodrLngMembraneEodrPositionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneMenuForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneMenuForm.resx">
+      <DependentUpon>EodrLngMembraneMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneMessageResource.ja-JP.resx" />
+    <EmbeddedResource Include="EodrLngMembraneMessageResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EodrLngMembraneMessageResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneCrossSectionMeasurementForm.resx">
+      <DependentUpon>EodrLngMembraneCrossSectionMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneObservationDataEditingForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneObservationDataEditingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneObservationDataEditingForm.resx">
+      <DependentUpon>EodrLngMembraneObservationDataEditingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneTankForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneTankForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneTankForm.resx">
+      <DependentUpon>EodrLngMembraneTankForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneTankPlaneForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneTankPlaneForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneTankPlaneForm.resx">
+      <DependentUpon>EodrLngMembraneTankPlaneForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneTankShapeForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneTankShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneTankShapeForm.resx">
+      <DependentUpon>EodrLngMembraneTankShapeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneVesselForm.ja-JP.resx">
+      <DependentUpon>EodrLngMembraneVesselForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrLngMembraneVesselForm.resx">
+      <DependentUpon>EodrLngMembraneVesselForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrMeasurementForm.ja-JP.resx">
+      <DependentUpon>EodrMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EodrMeasurementForm.resx">
+      <DependentUpon>EodrMeasurementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumTextBox.resx">
+      <DependentUpon>NumTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="DataSetBasePoint.xsc">
+      <DependentUpon>DataSetBasePoint.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBasePoint.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBasePoint.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetBasePoint.xss">
+      <DependentUpon>DataSetBasePoint.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBasePointTransformation.xsc">
+      <DependentUpon>DataSetBasePointTransformation.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetBasePointTransformation.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBasePointTransformation.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetBasePointTransformation.xss">
+      <DependentUpon>DataSetBasePointTransformation.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetCoordinateTransformation.xsc">
+      <DependentUpon>DataSetCoordinateTransformation.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetCoordinateTransformation.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCoordinateTransformation.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetCoordinateTransformation.xss">
+      <DependentUpon>DataSetCoordinateTransformation.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetMeasurementData.xsc">
+      <DependentUpon>DataSetMeasurementData.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetMeasurementData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetMeasurementData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetMeasurementData.xss">
+      <DependentUpon>DataSetMeasurementData.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
