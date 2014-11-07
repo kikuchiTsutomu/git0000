@@ -58,6 +58,7 @@
             this.comboBoxTankNo = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBoxMeasurementForTank = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.groupBoxPreparation.SuspendLayout();
             this.groupBoxMeasurement.SuspendLayout();
@@ -89,10 +90,11 @@
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -135,9 +137,9 @@
             // 
             // groupBoxPreparation
             // 
-            resources.ApplyResources(this.groupBoxPreparation, "groupBoxPreparation");
             this.groupBoxPreparation.Controls.Add(this.buttonTankInformation);
             this.groupBoxPreparation.Controls.Add(this.buttonTankPlane);
+            resources.ApplyResources(this.groupBoxPreparation, "groupBoxPreparation");
             this.groupBoxPreparation.Name = "groupBoxPreparation";
             this.groupBoxPreparation.TabStop = false;
             // 
@@ -164,13 +166,13 @@
             // 
             // groupBoxMeasurement
             // 
-            resources.ApplyResources(this.groupBoxMeasurement, "groupBoxMeasurement");
             this.groupBoxMeasurement.Controls.Add(this.buttonTankForeBhdMeasurement);
             this.groupBoxMeasurement.Controls.Add(this.buttonTankBottomMeasurement);
             this.groupBoxMeasurement.Controls.Add(this.buttonTankCrossSectionMeasurement);
             this.groupBoxMeasurement.Controls.Add(this.buttonTankAftBhdMeasurement);
             this.groupBoxMeasurement.Controls.Add(this.buttonBasePointMeasurement);
             this.groupBoxMeasurement.Controls.Add(this.buttonEodrInformation);
+            resources.ApplyResources(this.groupBoxMeasurement, "groupBoxMeasurement");
             this.groupBoxMeasurement.Name = "groupBoxMeasurement";
             this.groupBoxMeasurement.TabStop = false;
             // 
@@ -218,11 +220,11 @@
             // 
             // groupBoxAftermeasurement
             // 
-            resources.ApplyResources(this.groupBoxAftermeasurement, "groupBoxAftermeasurement");
             this.groupBoxAftermeasurement.Controls.Add(this.button5);
             this.groupBoxAftermeasurement.Controls.Add(this.buttonTnakShapeData);
             this.groupBoxAftermeasurement.Controls.Add(this.buttonCoordinateTransformation);
             this.groupBoxAftermeasurement.Controls.Add(this.buttonObservationDataEditing);
+            resources.ApplyResources(this.groupBoxAftermeasurement, "groupBoxAftermeasurement");
             this.groupBoxAftermeasurement.Name = "groupBoxAftermeasurement";
             this.groupBoxAftermeasurement.TabStop = false;
             this.groupBoxAftermeasurement.Enter += new System.EventHandler(this.groupBoxAftermeasurement_Enter);
@@ -256,7 +258,6 @@
             // 
             // comboBoxTankNo
             // 
-            resources.ApplyResources(this.comboBoxTankNo, "comboBoxTankNo");
             this.comboBoxTankNo.FormattingEnabled = true;
             this.comboBoxTankNo.Items.AddRange(new object[] {
             resources.GetString("comboBoxTankNo.Items"),
@@ -264,6 +265,7 @@
             resources.GetString("comboBoxTankNo.Items2"),
             resources.GetString("comboBoxTankNo.Items3"),
             resources.GetString("comboBoxTankNo.Items4")});
+            resources.ApplyResources(this.comboBoxTankNo, "comboBoxTankNo");
             this.comboBoxTankNo.Name = "comboBoxTankNo";
             // 
             // label3
@@ -273,14 +275,21 @@
             // 
             // groupBoxMeasurementForTank
             // 
-            resources.ApplyResources(this.groupBoxMeasurementForTank, "groupBoxMeasurementForTank");
             this.groupBoxMeasurementForTank.Controls.Add(this.groupBoxMeasurement);
             this.groupBoxMeasurementForTank.Controls.Add(this.groupBoxPreparation);
             this.groupBoxMeasurementForTank.Controls.Add(this.comboBoxTankNo);
             this.groupBoxMeasurementForTank.Controls.Add(this.label3);
+            resources.ApplyResources(this.groupBoxMeasurementForTank, "groupBoxMeasurementForTank");
             this.groupBoxMeasurementForTank.Name = "groupBoxMeasurementForTank";
             this.groupBoxMeasurementForTank.TabStop = false;
             this.groupBoxMeasurementForTank.Enter += new System.EventHandler(this.groupBoxMeasurementForTank_Enter);
+            // 
+            // radioButton1
+            // 
+            resources.ApplyResources(this.radioButton1, "radioButton1");
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.TabStop = true;
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // EodrLngMembraneMenuForm
             // 
@@ -345,5 +354,6 @@
         private System.Windows.Forms.ComboBox comboBoxTankNo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBoxMeasurementForTank;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
