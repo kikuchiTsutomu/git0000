@@ -61,6 +61,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.groupBoxMeasurementForTank = new System.Windows.Forms.GroupBox();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBoxPreparation.SuspendLayout();
             this.groupBoxMeasurement.SuspendLayout();
@@ -309,11 +311,24 @@
             this.radioButton6.TabStop = true;
             this.radioButton6.UseVisualStyleBackColor = true;
             // 
+            // maskedTextBox1
+            // 
+            resources.ApplyResources(this.maskedTextBox1, "maskedTextBox1");
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
             // EodrLngMembraneMenuForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MintCream;
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.buttonVesselInformation);
             this.Controls.Add(this.groupBoxMeasurementForTank);
             this.Controls.Add(this.label31);
@@ -375,5 +390,7 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Label label4;
     }
 }
