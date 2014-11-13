@@ -65,7 +65,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.label5 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.radioButton7 = new System.Windows.Forms.RadioButton();
+=======
+>>>>>>> 87b0ed85df17d86e18286df20aab8fe784146dac
             this.groupBox1.SuspendLayout();
             this.groupBoxPreparation.SuspendLayout();
             this.groupBoxMeasurement.SuspendLayout();
@@ -337,6 +340,7 @@
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
             // 
+<<<<<<< HEAD
             // radioButton7
             // 
             resources.ApplyResources(this.radioButton7, "radioButton7");
@@ -344,6 +348,8 @@
             this.radioButton7.TabStop = true;
             this.radioButton7.UseVisualStyleBackColor = true;
             // 
+=======
+>>>>>>> 87b0ed85df17d86e18286df20aab8fe784146dac
             // EodrLngMembraneMenuForm
             // 
             resources.ApplyResources(this, "$this");
@@ -418,6 +424,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.Label label5;
+<<<<<<< HEAD
         private System.Windows.Forms.RadioButton radioButton7;
+=======
+>>>>>>> 87b0ed85df17d86e18286df20aab8fe784146dac
     }
 }

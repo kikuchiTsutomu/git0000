@@ -215,6 +215,7 @@
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>11</value>
+<<<<<<< HEAD
   </data>
   <data name="radioButton7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -246,6 +247,8 @@
   </data>
   <data name="&gt;&gt;radioButton7.ZOrder" xml:space="preserve">
     <value>0</value>
+=======
+>>>>>>> 87b0ed85df17d86e18286df20aab8fe784146dac
   </data>
   <data name="radioButton6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
